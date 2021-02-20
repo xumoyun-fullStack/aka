@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import '../fonts/style.css';
+.container{
+    width:1170px;
+    margin:0 auto;
+    position: relative;
+}
+
+@import './header.scss';
+@import './main.scss';
+@import './section.scss';
+@import '../css/responsive.css';
+

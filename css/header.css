@@ -1,0 +1,97 @@
+header {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 80px;
+}
+
+.menu_bar {
+  height: 80px;
+  display: flex;
+}
+
+.logo, .akaphone {
+  margin-top: 17px;
+}
+
+.aka {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(47, 96, 221, 0.95);
+  margin-left: 10px;
+}
+
+.po {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333333;
+  margin-left: 10px;
+}
+
+.menu ul {
+  display: flex;
+  margin-left: 194px;
+}
+.menu ul li {
+  list-style: none;
+  margin-right: 25px;
+  margin-top: 34px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.contact {
+  margin-top: 10px;
+}
+
+.number {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.zakaz {
+  width: 170px;
+  padding: 9px 22px;
+  border: 2px solid #eb4d4d;
+}
+.zakaz a {
+  text-decoration: none;
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EB4D4D;
+}
+
+.telegram {
+  height: 80px;
+  width: 70px;
+  margin-left: 30px;
+  background-color: #31a9dd;
+  text-align: center;
+}
+
+.fab {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=header.css.map */

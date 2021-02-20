@@ -1,0 +1,64 @@
+
+
+
+.top{
+    display:flex;
+    height:672px;
+   
+}
+.text{
+    margin-top:129px;
+}
+
+.smart{
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #333333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.magazin{
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    color: #333333;
+    margin-top:30px;
+}
+
+.watches{   
+   position: absolute;
+   right:-215px;
+   margin-top:44px;
+}
+
+.rectangle{
+    position: relative;
+    z-index: 1;
+}
+
+.watch{
+    position: absolute;
+    z-index: 3;
+    left:-72px;
+    top:34px;
+
+}
+
+.boxes{
+    display:flex;
+    margin-top:32px;
+}
+
+.box{
+    height:10px;
+    width:50px;
+    background-color: #c4c4c4;
+    margin-right:15px;
+}
+
