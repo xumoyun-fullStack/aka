@@ -1,7 +1,8 @@
 @media (max-width: 480px){
-    .container{
-        width:300px;
+    header , main, section .container{
+        width:100%;
         margin:0 auto;
+        padding-left:80px;
     }
     header .menu_bar .menu , .contact , .telegram{
         display:none;
@@ -74,6 +75,9 @@
     section .phones {
       margin-left:15px;
    } 
+   section .phones .phone{
+       width:55%;
+   }
     
     section .phones .phone_1{
         display: none;
