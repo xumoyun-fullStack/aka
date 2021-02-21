@@ -224,6 +224,10 @@ header {
   position: relative;
 }
 
+.pic {
+  width: 100%;
+}
+
 .left {
   position: absolute;
   margin-top: 218px;
@@ -292,6 +296,7 @@ header {
   border: none;
   position: absolute;
   margin-top: 14px;
+  bottom: 0;
 }
 .buy a {
   text-decoration: none;
