@@ -1,9 +1,9 @@
-@media (max-width: 320px){
+@media (max-width: 480px){
     .container{
         width:300px;
         margin:0 auto;
     }
-    header .menu_bar .contact , .telegram{
+    header .menu_bar .menu , .contact , .telegram{
         display:none;
         /* overflow: hidden; */
     }
