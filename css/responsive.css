@@ -74,6 +74,7 @@
     }
     section .phones {
       margin-left:15px;
+      width:110%;
    } 
    section .phones .phone{
        width:55%;
