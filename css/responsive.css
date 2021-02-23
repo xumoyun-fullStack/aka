@@ -1,16 +1,16 @@
 @media (max-width: 480px) {
   header .container {
-    width: 480px;
+    width: 300px;
     margin: 0 auto;
   }
 
   main .container {
-    width: 480px;
+    width: 300px;
     margin: 0 auto;
   }
 
   section .container {
-    width: 480px;
+    width: 300px;
     margin: 0 auto;
   }
 
