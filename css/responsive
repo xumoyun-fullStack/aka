@@ -4,16 +4,6 @@
     margin: 0 auto;
   }
 
-  main .container {
-    width: 300px;
-    margin: 0 auto;
-  }
-
-  section .container {
-    width: 300px;
-    margin: 0 auto;
-  }
-
   header .menu_bar {
     width: 300px;
   }
@@ -96,11 +86,11 @@
 
   section .phones {
     margin-left: 15px;
-    width: 50%;
+    width: 110%;
   }
 
   section .phones .phone {
-    width: 49%;
+    width: 55%;
   }
 
   section .phones .phone_1 {
@@ -122,4 +112,4 @@
   }
 }
 
-/*# sourceMappingURL=responsive.css.map */
+/*# sourceMappingURL=responsive.map */

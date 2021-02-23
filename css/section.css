@@ -17,14 +17,20 @@
 
 .phones {
   display: flex;
-  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .phone {
-  width: 270px;
+  width: 24%;
   height: 468px;
   background-color: #fff;
   margin-right: 30px;
+  position: relative;
+}
+
+.pic {
+  width: 100%;
 }
 
 .left {
@@ -36,7 +42,7 @@
 .right {
   position: absolute;
   margin-top: 218px;
-  right: -71px;
+  right: -120px;
 }
 
 .name {
@@ -90,10 +96,12 @@
 
 .buy {
   height: 50px;
-  width: 93%;
+  width: 100%;
   background-color: #eb4d4d;
   border: none;
-  margin-top: 22px;
+  position: absolute;
+  margin-top: 14px;
+  bottom: 0;
 }
 .buy a {
   text-decoration: none;

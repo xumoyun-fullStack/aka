@@ -1,5 +1,4 @@
 @import '../fonts/style.css';
-@import '../css/responsive.css';
 * {
   margin: 0;
   padding: 0;
@@ -326,6 +325,130 @@ header {
   margin-left: 149px;
   background-color: rgba(46, 93, 213, 0.8);
   top: -3px;
+}
+
+@media (max-width: 480px) {
+  header .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  main .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  section .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  header .menu_bar {
+    width: 300px;
+  }
+
+  header .menu_bar .menu, .contact, .telegram {
+    display: none;
+    /* overflow: hidden; */
+  }
+
+  main {
+    height: 670px;
+  }
+
+  main .top {
+    display: block;
+    height: 670px;
+  }
+
+  .top .watches {
+    position: none;
+    left: 0;
+    bottom: 0;
+  }
+
+  .top .watch {
+    width: 308px;
+    left: 0;
+    margin-top: 11px;
+  }
+
+  .top .rectangle {
+    position: relative;
+    width: 320px;
+    height: 350px;
+  }
+
+  .top .watches .boxes {
+    position: absolute;
+    margin-top: 0;
+    top: 319px;
+    z-index: 3;
+    margin-left: 15px;
+  }
+
+  .top .watches .boxes .box {
+    background-color: #fff;
+  }
+
+  .top .watches .boxes .box_1 {
+    background-color: #333333;
+  }
+
+  .top .text {
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+
+  .top .smart {
+    font-family: "Montserrat Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: justify;
+    color: #333333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .top .magazin {
+    font-size: 14px;
+    line-height: 164.4%;
+    color: #333333;
+    margin-right: 16px;
+    width: 300px;
+  }
+
+  section .nedelyu {
+    margin-left: 14px;
+  }
+
+  section .phones {
+    margin-left: 15px;
+    width: 50%;
+  }
+
+  section .phones .phone {
+    width: 49%;
+  }
+
+  section .phones .phone_1 {
+    display: none;
+  }
+
+  section .phones .left, .right {
+    display: none;
+  }
+
+  section .line {
+    width: 292px;
+    margin-left: 14px;
+  }
+
+  section .line .inline {
+    width: 77px;
+    margin-left: 117px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

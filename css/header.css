@@ -32,6 +32,9 @@ header {
   margin-left: 10px;
 }
 
+.menu {
+  width: 57.5%;
+}
 .menu ul {
   display: flex;
   margin-left: 194px;
