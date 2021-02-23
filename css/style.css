@@ -425,7 +425,7 @@ header {
 
   section .phones {
     margin-left: 15px;
-    width: 1000%;
+    width: 100%;
   }
 
   section .phones .phone {
