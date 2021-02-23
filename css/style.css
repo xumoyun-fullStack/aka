@@ -164,6 +164,7 @@ header {
 
 .watches {
   position: absolute;
+  right: -215px;
   margin-top: 44px;
 }
 
@@ -364,6 +365,7 @@ header {
     position: none;
     left: 0;
     bottom: 0;
+    right: 0;
   }
 
   .top .watch {
