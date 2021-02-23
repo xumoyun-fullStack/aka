@@ -329,17 +329,17 @@ header {
 
 @media (max-width: 480px) {
   header .container {
-    width: 300px;
+    width: 480px;
     margin: 0 auto;
   }
 
   main .container {
-    width: 300px;
+    width: 480px;
     margin: 0 auto;
   }
 
   section .container {
-    width: 300px;
+    width: 480px;
     margin: 0 auto;
   }
 
