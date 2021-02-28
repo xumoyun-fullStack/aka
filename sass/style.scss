@@ -4,8 +4,9 @@
 }
 
 @import '../fonts/style.css';
+
 .container{
-     width:1170px;
+    width:1170px;
     margin:0 auto;
     position: relative;
 }
@@ -14,4 +15,6 @@
 @import './main.scss';
 @import './section.scss';
 @import './responsive.scss';
+@import './much.scss';
+@import './footer.scss';
 
