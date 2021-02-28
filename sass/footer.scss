@@ -1,12 +1,14 @@
 footer{
     background: #062B40;
-    height:300px;
+    // height:300px;
 }
 
 .flexes{
     display: flex;
 }
-
+.flexes_1{
+    display: flex;;
+}
 .logo_footer{
     display: inline-block;
     margin-top:71px;
@@ -26,6 +28,9 @@ footer{
     
 }
 
+.lists{
+    display: flex;
+}
 .logo_footer_text_1
 {
     font-family: 'Montserrat Regular';
@@ -87,6 +92,7 @@ footer{
     background: #C4C4C4;
     margin-top: 54px;
     margin-left: 41px;
+    margin-bottom:60px;
 }
 
 .yandex{

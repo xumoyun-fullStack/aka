@@ -221,6 +221,7 @@ header {
   background-color: #fff;
   margin-right: 30px;
   position: relative;
+  border: 1px solid #EDECEC;
 }
 
 .pic {
@@ -343,6 +344,15 @@ header {
     margin: 0 auto;
   }
 
+  footer .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  footer {
+    height: 618px;
+  }
+
   header .menu_bar {
     width: 300px;
   }
@@ -463,8 +473,211 @@ header {
     display: none;
   }
 
-  .products_1 {
+  .products {
+    flex-wrap: wrap;
+  }
+
+  .products_2 {
+    order: 2;
+  }
+
+  .products_3 {
+    order: 1;
+  }
+
+  .product_1_bottom {
+    flex-wrap: wrap;
+  }
+
+  .product_1_bottom .mi_band_3 {
+    margin-left: 0;
+    margin-top: 30px;
+    order: 1;
+  }
+
+  .products .products_2 {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .products_3 .galaxy_tab {
+    margin-left: 0;
+    margin-top: 30px;
+    order: 1;
+  }
+
+  .products_3 .galaxy_tab .galaxy {
+    top: 260px;
+    right: 60px;
+  }
+
+  .products_3 .holitic {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .kreslo {
+    position: none;
+  }
+
+  .products_2 .kreslo_text {
+    margin-left: 50px;
+    position: none;
+  }
+
+  .phones_catalog {
+    flex-wrap: wrap;
+  }
+
+  .phones_catalog .phone {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .phones_catalog .last_phone {
     display: none;
+  }
+
+  .phones_catalog_2 .phone {
+    display: none;
+  }
+
+  footer .flexes {
+    flex-wrap: wrap;
+  }
+
+  footer .lists {
+    width: 180px;
+    flex-wrap: wrap;
+  }
+
+  footer .flexes .flexes_1 .lists .onas {
+    margin-left: 20px;
+  }
+  footer .flexes .flexes_1 .lists .onas a {
+    line-height: 25px;
+  }
+
+  footer .flexes .flexes_1 .lists .smartphone {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  footer .flexes .flexes_1 .lists .smartphone a {
+    line-height: 25px;
+  }
+
+  footer .logo_footer {
+    text-align: left;
+    padding-left: 16px;
+    width: 150px;
+  }
+
+  footer .footer_photo {
+    margin-left: 3px;
+  }
+
+  footer .karta {
+    height: 150px;
+    margin-top: 25px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  footer .info_footer {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+    position: relative;
+  }
+
+  footer .tel_email {
+    display: flex;
+    width: 100%;
+  }
+
+  footer .nomer_123 {
+    position: relative;
+    width: 50%;
+    margin-right: 10px;
+    height: 70px;
+  }
+
+  footer .nashtele {
+    width: 72px;
+    font-size: 10px;
+    left: 0;
+  }
+
+  footer .nomer {
+    width: 119px;
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+  }
+
+  footer .email_com {
+    position: relative;
+    width: 50%;
+    height: 70px;
+    margin-left: 30px;
+  }
+
+  footer .nashemail {
+    top: 0;
+    width: 60px;
+    font-size: 10px;
+    left: 0;
+  }
+
+  footer .email {
+    font-size: 13px;
+    top: 20px;
+    left: 0;
+  }
+
+  footer .adres_social {
+    display: flex;
+    width: 100%;
+    height: 70px;
+  }
+
+  footer .address {
+    width: 50%;
+    height: 70px;
+    position: relative;
+  }
+
+  footer .social {
+    height: 50px;
+  }
+
+  footer .face {
+    margin-top: 0;
+    margin-left: 30px;
+    width: 34px;
+  }
+
+  footer .telegramma {
+    margin-top: 0;
+    width: 34px;
+  }
+
+  footer .instagramm {
+    margin-top: 0;
+    width: 34px;
+  }
+
+  footer .nashadres {
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+
+  footer .adres {
+    top: 20px;
+    left: 0;
+    font-size: 13px;
   }
 }
 .spets {
@@ -550,6 +763,11 @@ header {
 
 .products {
   display: flex;
+}
+
+.products_1 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hyperx {
@@ -646,7 +864,9 @@ header {
   width: 270px;
   height: 470px;
   background: linear-gradient(180deg, #5AC651, #ECDB41);
-  margin-left: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .kreslo {
@@ -657,7 +877,7 @@ header {
 
 .kreslo_text {
   position: absolute;
-  right: 0;
+  right: -227px;
   width: 211px;
   font-family: "Montserrat Regular";
   font-style: normal;
@@ -666,6 +886,7 @@ header {
   line-height: 32px;
   text-align: right;
   color: #FFFFFF;
+  z-index: 2;
 }
 
 .kreslo_prices {
@@ -676,6 +897,7 @@ header {
 
 .kreslo_img {
   margin-top: 22px;
+  height: 180px;
 }
 
 .kupit_kreslo {
@@ -684,6 +906,7 @@ header {
   width: 160px;
   margin-left: 90px;
   margin-top: 22px;
+  margin-right: 15px;
 }
 
 .kupi_2 {
@@ -721,6 +944,8 @@ header {
 
 .products_3 {
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .galaxy_prices {
@@ -809,10 +1034,13 @@ header {
 
 footer {
   background: #062B40;
-  height: 300px;
 }
 
 .flexes {
+  display: flex;
+}
+
+.flexes_1 {
   display: flex;
 }
 
@@ -833,6 +1061,10 @@ footer {
   position: absolute;
   left: 13px;
   top: 14px;
+}
+
+.lists {
+  display: flex;
 }
 
 .logo_footer_text_1 {
@@ -895,6 +1127,7 @@ footer {
   background: #C4C4C4;
   margin-top: 54px;
   margin-left: 41px;
+  margin-bottom: 60px;
 }
 
 .yandex {
